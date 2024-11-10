@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Content.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">test 1</div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Profile</li>
+                <li><a href="#">Matches</li>
+                <li><a href="#">Stas</li>
+                <li><a href="#">Settings</li>
+            </ul>
+        </nav>
+        <div class="live-button"><a href="#"live-button></a></div>
+    </header>
+
+    <div class="background-image">
+        <img src="blurrr_1730722285416.png" alt="" width="500px">
+    </div>
+
+    <div class="teks-belakang-object">
+        <div class="teks-belakang-gambar-1">charlotte</div>
+        <div class="teks-belakang-gmabar-2">P.A.Works Corporation & Aniplex Inc.</div>
+    
+    </div>
+
+    <div class="box">
+        <div id="jam"></div>
+        <script>
+            function updateClock(){
+                const now = new Date();
+                const jam = now.getHours().toString().padStart(2, '0');
+                const menit = now.getMinutes().toString().padStart(2, '0');
+
+                document.getElementById('jam').innerText = `${jam}:${menit}`;
+            }
+            setInterval(updateClock, 1000);
+            updateClock();
+        </script>
+    </div>
+
+    <div class="box1">
+        <div class="nama">Tomori Nao</div>
+    </div>
+
+</body>
+</html>

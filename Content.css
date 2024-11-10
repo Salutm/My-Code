@@ -1,0 +1,171 @@
+body {
+    margin: 0%;
+    font-family: arial, sans-serif;
+    background:linear-gradient(to right, rgb(51, 51, 51), rgb(28, 28, 28) 45*d) ;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #1d1d1d;
+    padding: 15px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation li {
+    list-style: none;
+    padding: o;
+}
+
+.navigation ul li{
+    margin-right: 20px;
+    display: inline;
+}
+
+.navigation a:hover {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.live button {
+    background-color: #e74c3c;
+    padding: 10px 15px;
+}
+
+.live button a {
+    color: white;
+    text-decoration: none;
+}
+
+.background-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: 1;
+
+    max-width: 100%;
+    height: auto;
+}
+
+/*.shadow-kontainer {
+    display: inline;
+    position: relative;
+}
+
+.object-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.shadow-kontainer::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    filter: blur(10px);
+}*/
+
+.box {
+    width: 200px;
+    height: 70px;
+
+    background-color: rgba(alpha);
+    backdrop-filter: blur(4px);
+    padding: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 10);
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top:  50%;
+    transform: translate(-50%, -50%);
+
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+
+    z-index: 2;
+}
+
+#jam {
+    font-size: 130px;
+    font-family: 'MyFont', Qalesya;
+    color: white;
+    text-shadow: 0 2px 7px rgba(0, 0, 0, 50);
+}
+
+.box1 {
+    width: 200px;
+    height: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, alpha);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    box-shadow: 0 5px 20px;
+
+    position: fixed;
+    left: 50%;
+    top: 94%;
+    transform: translateX(-50%);
+
+    border: 2px solid white;
+    border-radius: 10px 10px 0 0;
+
+    z-index: 2;
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src:url('WONDERLANDPRO-Regular.woff2') format('.woff2') 
+        url('AnyConv.com__Qalesya.woff2') format('.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nama {
+    font-family: 'MyFont', Qalesya;
+    font-size: 45px;
+    color: white;
+    font-weight: 200;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.teks-belakang-object {
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 5);
+
+}
+
+.teks-belakang-gambar-1 {
+    font-size: 350px;
+    font-family: 'MyFont', Qalesya;
+    height: 300px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 5);
+}
+
+.teks-belakang-gambar-2 {
+    font-family: 'MyFont', Qalesya;
+}
